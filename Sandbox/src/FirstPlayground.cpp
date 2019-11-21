@@ -15,9 +15,7 @@ public:
 
 };
 
-int main()
+SimpleEngine::Application* SimpleEngine::CreateApplication() 
 {
-	Playground* pg = new Playground();
-	pg->Run();
-	delete pg;
+	return new Playground();
 }

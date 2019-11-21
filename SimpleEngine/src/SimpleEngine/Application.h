@@ -1,8 +1,11 @@
 #pragma once
+#include "Core.h"
+
+//#define SE_API __declspec(dllexport)
 
 namespace SimpleEngine {
 
-	class __declspec(dllexport) Application
+	class SE_API Application
 	{
 	public:
 		Application();
@@ -11,7 +14,7 @@ namespace SimpleEngine {
 		void Run();
 	};
 
-	__declspec
-
+	/* To be declared in the implementing Application */
+	SimpleEngine::Application* CreateApplication();
 }
 
