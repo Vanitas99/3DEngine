@@ -4,7 +4,7 @@
 */
 
 #include "SimpleEngine/Application.h"
-
+#include "SimpleEngine/Log.h"
 /*----ENTRY POINT----------------------------------------------------*/
 #include "SimpleEngine/Entry.h"
 /*----ENTRY POINT----------------------------------------------------*/
